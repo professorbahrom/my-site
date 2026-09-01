@@ -1,0 +1,39 @@
+# ── Sirlar ─────────────────────────────────────────────
+# Bular hech qachon GitHub'ga tushmasligi kerak
+.env
+.env.*
+*.pem
+*.key
+*.p12
+secrets.json
+credentials.json
+
+# ── Yig'ilgan fayllar ──────────────────────────────────
+# build-artifact.py istalgan vaqtda qayta yasaydi
+dist/
+
+# ── macOS axlati ───────────────────────────────────────
+.DS_Store
+._*
+.Spotlight-V100
+.Trashes
+
+# ── Claude Code lokal sozlamalari ──────────────────────
+# launch.json qoladi (foydali), bu esa faqat shu kompyuterga tegishli
+.claude/settings.local.json
+
+# ── Muharrirlar ────────────────────────────────────────
+.vscode/
+.idea/
+*.swp
+*~
+
+# ── Python ─────────────────────────────────────────────
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# ── Boshqa ─────────────────────────────────────────────
+node_modules/
+*.log
